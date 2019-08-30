@@ -1,0 +1,12 @@
+name: modify_mac_acl
+pack: neext
+runner_type: local-shell-script
+description: ''
+entry_point: invisible-command.sh
+parameters:
+  mgmt_ip:
+    type: string
+  acl_name:
+    type: string
+  acl_rules:
+    type: array
